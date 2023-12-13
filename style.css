@@ -1,0 +1,33 @@
+body {
+                margin: 0;
+                padding: 0;
+                word-wrap: break-word;
+                color: black;
+                background-color: black;
+                background-image: url(-);
+                background-repeat: repeat;
+            }
+
+button:hover, .active {
+    box-shadow: 1px 1px 3px;
+    transition: all 1s;
+    filter: grayscale(0.8);
+   margin-top: 200px;
+}
+
+a {
+    text-decoration:none;
+    font-size:calc(10px - 2px);
+    text-transform:uppercase;
+    color:#8a8a8a;
+    letter-spacing:1px; 
+     -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;}
+ 
+a:hover {
+    letter-spacing:1px;
+    color:#bbb;
+
+}
